@@ -1,0 +1,430 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Roboto:wght@300;400&display=swap');
+
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+
+ /* utility classes */
+
+ .container {
+     overflow: hidden;
+ }
+
+ h1 {
+     font-size: 3rem;
+ }
+
+ h2 {
+     font-size: 2.8rem;
+ }
+
+ a {
+     text-decoration: none;
+
+ }
+
+ .fa-greater-than {
+     font-size: 13px;
+ }
+
+ body {
+     /* background-color: black; */
+    
+     width: 100%;
+ }
+
+ .flex {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .line-space {
+     height: 1vh;
+     width: 100%;
+ }
+
+
+ /* header section */
+
+ body {
+     font-family: 'Poppins', sans-serif;
+     font-family: 'Roboto', sans-serif;
+ }
+
+ /* header {
+     height: 5.9vh;
+     width: 100%;
+     background-color: #333333;
+ } */
+
+ nav {
+    width: 100%;
+    gap: 40px;
+    position: fixed;
+    /* background-color: #333333; */
+    top: 10;
+    z-index: 1;
+    opacity: 0.85;
+    background: rgba(0,0,0,0.8);
+    /* -webkit-backdrop-filter: saturate(180%) blur(20px); */
+    backdrop-filter: saturate(180%) blur(20px);
+}
+
+
+
+ nav ul {
+     /* height: 5.5vh; */
+     list-style: none;
+     gap: 40px;
+     height: 5.9vh;
+
+ }
+
+ ul li {
+     font-size: 0.73rem;
+ }
+
+ .icon-hover {
+     color: rgb(212, 212, 212);
+     cursor: pointer;
+ }
+
+ .icon-hover:hover {
+     color: white;
+     transition: 0.5s ease-out;
+
+ }
+
+
+
+ ul li a {
+     color: rgb(212, 212, 212);
+ }
+
+ ul li a:hover {
+     color: white;
+     transition: 0.6s ease-out;
+ }
+
+ /* iphone-14 section */
+
+ .iphone14-banner:hover {
+     cursor: pointer;
+ }
+
+ .image-i-14 {
+     position: relative;
+ }
+
+ .heading-i14 {
+     width: 100%;
+     flex-direction: column;
+     position: absolute;
+     top: 60px;
+     gap: 18px;
+ }
+
+ .image-i-14 img {
+     width: 100%;
+     height: 78vh;
+     object-fit: cover;
+ }
+
+ .sub-heading {
+     gap: 40px;
+ }
+
+ .sub-heading a {
+     color: #0066cc;
+
+ }
+
+ .sub-heading a:hover {
+    text-decoration: underline;
+}
+
+
+ /* holiday gift section */
+
+
+ .gift-i-14 {
+     position: relative;
+ }
+
+ .gift-heading {
+     width: 100%;
+     flex-direction: column;
+     position: absolute;
+     bottom: 44px;
+     gap: 24px;
+     color: white;
+ }
+
+ .gift-heading h3 {
+     width: 23%;
+     text-align: center;
+
+ }
+
+ .gift-i-14 img {
+     width: 100%;
+     height: 82vh;
+     object-fit: cover;
+ }
+
+
+
+ .gift-sub-heading a {
+     color: #2997ff;
+
+ }
+
+ .gift-sub-heading a:hover {
+     text-decoration: underline;
+ }
+
+ /* <!-- i card section --> */
+
+ .card-i-14 {
+     position: relative;
+ }
+
+ .card-heading {
+     width: 100%;
+     flex-direction: column;
+     position: absolute;
+     gap: 24px;
+     top: 80px;
+     color: white;
+ }
+
+ .card-heading h2 {
+     text-align: center;
+ }
+
+ .card-heading h2 i {
+     font-size: 2.8rem;
+
+ }
+
+
+ .card-heading h3 {
+     width: 29%;
+     text-align: center;
+ }
+
+ .card-i-14 img {
+     width: 100%;
+     height: 82vh;
+     object-fit: cover;
+ }
+
+ .card-sub-heading {
+     gap: 20px;
+ }
+
+ .card-sub-heading a {
+     color: #2997ff;
+
+ }
+
+ .card-sub-heading a:hover {
+     text-decoration: underline;
+ }
+
+ .img-bg {
+     height: 90px;
+     width: 9.5%;
+     height: 55px;
+     background-color: red;
+     background: url(/imgs/asset\ 18.jpeg);
+     background-repeat: no-repeat;
+
+ }
+
+ /*     <!-- products-card section -->  */
+
+ .products-card {
+     height: 230vh;
+     display: grid;
+     grid-template-rows: repeat(3, 1fr);
+     row-gap: 10px;
+     column-gap: 10px;
+     grid-template-columns: repeat(2, calc(50% - 5px));
+     margin-inline: 10px;
+ }
+
+ .cards-heading {
+     flex-direction: column;
+     gap: 10px;
+     margin-top: 25px;
+ }
+
+
+ #cards-1 {
+     background: url(/imgs/asset\ 18.jpeg);
+     background-size: cover;
+     background-position: center;
+ }
+
+ #cards-2 {
+     background: url(/imgs/asset\ 19.jpeg);
+     background-size: cover;
+     background-position: center;
+ }
+
+ #cards-3 {
+     background: url(/imgs/promo_apple_watch_ultra__gnsqulvdc4a6_large.jpg);
+     background-size: cover;
+     background-position: center;
+ }
+
+ #cards-4 {
+     background: url(/imgs/promo_airpods_pro_avail__gaxggskofx6y_large.jpg);
+     background-size: cover;
+     background-position: center;
+ }
+
+
+ #cards-5 {
+     background: url(/imgs/promo_macbookair__fywl7i82fueu_large.png);
+     background-size: cover;
+     background-position: center;
+ }
+
+
+ #cards-6 {
+     background: url(/imgs/tile__cauwwcyyn9hy_large.jpg);
+     background-size: cover;
+     background-position: center;
+ }
+
+
+
+/* apple-tv slider */
+
+.apple-tv-slider{
+    height: 100vh;
+    width: 100%;
+   
+}
+
+ .img-slider{
+    align-items: flex-end;
+
+    width: 80%;
+    height: 90%;
+    background: url(/imgs/asset\ 28.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+ }
+
+ .btn-text{
+    width: 90%;
+    color: white;
+    justify-content: flex-start;
+    gap: 25px;
+    /* background-color: red; */
+    height: 20%;
+ }
+
+ button{
+    background: white;
+    color: black;
+    padding: 12px 24px;
+    font-weight: 600;
+    border-radius: 25px;
+    border: 1px solid white;
+ }
+
+ button:hover{
+    cursor: pointer;
+    background: rgb(245, 243, 238);
+ }
+
+ /* footer section */
+
+
+ /* footer heading */
+
+ footer {
+     background-color: #f5f5f7;
+     flex-direction: column;
+     width: 100%;
+ }
+
+ .footer-heading {
+     height: 18vh;
+     width: 65%;
+     color: #000000;
+     opacity: 80%;
+     font-size: 0.7rem;
+     flex-direction: column;
+     gap: 13px;
+     justify-content: flex-start;
+ }
+
+ .footer-heading p {
+     width: 100%;
+ }
+
+
+ /* links */
+
+ .footer-grid{
+    font-size: 0.8rem;
+    height: 60vh;
+    display: grid;
+    width: 65%;
+    grid-template-columns: repeat(5,1fr);
+ }
+
+
+
+ .footer-links{
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+ .footer-links a{
+    color: rgb(100, 100, 100);
+ }
+
+ .footer-links a:hover{
+    text-decoration: underline;
+}
+
+.multiple-divs{
+    gap: 25px;
+}
+
+
+.for1{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    
+}
+
+.for1 a{
+    color: rgb(100, 100, 100);
+}
+
+.for1 a:hover{
+    text-decoration: underline;
+}
+
+
+.links-f{
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 27px;
+}

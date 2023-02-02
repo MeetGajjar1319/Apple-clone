@@ -1,0 +1,351 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* utility classes */
+
+.btn-buy {
+    background-color: #0066cc;
+    padding: 9px 16px;
+    color: white;
+    border-radius: 17px;
+    text-align: center;
+
+}
+
+.btn-buy:hover {
+    background-color: #0870d8;
+}
+
+.learn-more {
+    color: #0066cc;
+}
+
+.learn-more:hover {
+    text-decoration: underline;
+}
+
+
+.container {
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2.8rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.fa-greater-than {
+    font-size: 13px;
+}
+
+body {
+    /* background-color: black; */
+    height: 800vh;
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line-space {
+    height: 1vh;
+    width: 100%;
+}
+
+
+/* header section */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    min-height: 5.7vh;
+    width: 100%;
+    background-color: #333333;
+    /* position: fixed;
+    top: 0; */
+}
+
+nav {
+    gap: 40px;
+    background-color: #333333;
+}
+
+
+
+
+nav ul {
+    /* height: 5.5vh; */
+    list-style: none;
+    gap: 40px;
+    height: 5.7vh;
+
+}
+
+ul li {
+    font-size: 0.75rem;
+}
+
+.icon-hover {
+    color: rgb(212, 212, 212);
+    cursor: pointer;
+}
+
+.icon-hover:hover {
+    color: white;
+    transition: 0.5s ease-out;
+
+}
+
+
+
+ul li a {
+    color: rgb(212, 212, 212);
+}
+
+ul li a:hover {
+    color: white;
+    transition: 0.6s ease-out;
+}
+
+
+/*     <!-- top banner --> */
+
+.mac-top-banner {
+    gap: 25px;
+}
+
+.mac-icons-container {
+    /* padding: 10px; */
+    /* justify-content: center; */
+
+    gap: 34px;
+}
+
+.icons-top-mac {
+    padding-top: 10px;
+    height: 90px;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.icons-top-mac:hover {
+    cursor: pointer;
+    color: #0066cc;
+}
+
+.icons-top-mac img {
+    height: 55px;
+}
+
+.icons-top-mac a {
+    font-weight: lighter;
+    font-size: 0.75rem;
+}
+
+
+/* cash back section */
+
+.cash-back {
+    margin-top: 3vh;
+    min-height: 6.5vh;
+    font-size: 0.78rem;
+    color: black;
+    background-color: rgb(239, 239, 239);
+    /* opacity: 100%; */
+    flex-direction: column;
+    gap: 3px;
+}
+
+.cash-back p {
+    color: black;
+    font-weight: 100;
+}
+
+.cash-back a {
+    color: #0066cc;
+}
+
+/* <!--macbook air section  --> */
+
+.macbook-air-container {
+    flex-direction: column;
+    gap: 14px;
+}
+
+.mac-heading {
+    margin-top: 90px;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.links-mac {
+    gap: 22px;
+}
+
+
+.mac-air-img {
+    padding-top: 32px;
+    padding-bottom: 52px;
+}
+
+/* macbook pro section */
+
+.macbook-pro-section {
+    background: black;
+    color: white;
+}
+
+.macbook-deatils {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15vh;
+    gap: 7vh;
+}
+
+.details-links-tag {
+    gap: 50px;
+}
+
+.details-links-tag a {
+    font-size: 1.1rem;
+    color: #1d1d1f;
+}
+
+.macbooks-content {
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.macbooks-content strong {
+    font-size: 1.30rem;
+}
+
+.grid-items-macbook {
+    /* border: 2px solid black; */
+    /* height: 350vh; */
+    width: 100%;
+    display: grid;
+    grid-template-rows: 60vh repeat(11, 15vh);
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 12px;
+    row-gap: 1vh;
+    justify-items: center;
+    align-content: center;
+    text-align: center;
+
+}
+
+.title-mac {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 15%;
+    gap: 10px;
+}
+
+.text-space {
+    gap: 8px;
+}
+
+.up {
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 6vh;
+}
+
+.memory-box {
+    gap: 12px;
+}
+
+hr {
+    width: 100%;
+    background-color: gray;
+    height: 1px;
+}
+
+.bottom-mac-links {
+    gap: 60px;
+    width: 100%;
+}
+
+/* <!-- boards gift section  --> */
+
+.container-grid {
+    margin-top: 20vh;
+    width: 90%;
+    /* height: 500vh; */
+    display: grid;
+    grid-template-rows: 87vh 72vh 84vh;
+    gap: 30px;
+
+}
+
+#box1 {
+    background: url(./mac-images-updated/asset\ 58.jpeg);
+    /* background-size: contain; */
+    background-repeat: no-repeat;
+    position: relative;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    
+    
+
+}
+
+#box2 {
+    background: url(./mac-imgs/acmi__e6hmokx3ap0m_large.jpg);
+    /* opacity: 40%; */
+    
+    width: 100%;
+    background-repeat: no-repeat;
+    background-color: #efefef;
+    background-position: right 0% bottom 0%;
+    position: relative;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    
+
+}
+
+#box3 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    
+    background: url(./mac-images-updated/accessories_tile__cybkm8f034uq_large.jpg);
+    background-repeat: no-repeat;
+    background-color: #efefef;
+    background-position: bottom 50px right 0% ;
+}
+
+#box4 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    background: url(./mac-images-updated/trade_in_mac_tile__d67bvlqow1ua_large.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom ;
+    background-color: #efefef;
+
+}
